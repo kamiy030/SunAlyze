@@ -259,7 +259,7 @@ def daily_energy_kwh(df: pd.DataFrame, ts_col: str, power_col: str) -> pd.DataFr
 
 @st.cache_resource
 def load_gru_bundle():
-    model = tf.keras.models.load_model(GRU_PATH)
+    model = tf.keras.models.load_model(GRU_PATH, compile=False)
     scaler = joblib.load(SCALER_SBS)
     feats = None
 
