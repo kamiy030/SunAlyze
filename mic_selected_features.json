@@ -1,0 +1,24 @@
+{
+  "fs_method": "MIC (mutual_info_regression)",
+  "computed_on": "train_only",
+  "selection_rule": "mi_score > median(mi_score>0)",
+  "threshold_used": 0.1664294678972027,
+  "selected_k": 13,
+  "selected_features": [
+    "lmd_totalirrad",
+    "power_lag_1",
+    "lmd_diffuseirrad",
+    "power_lag_2",
+    "power_rollmean_4",
+    "nwp_globalirrad",
+    "power_rollmean_8",
+    "power_lag_96",
+    "nwp_directirrad",
+    "power_lag_4",
+    "hour",
+    "hour_cos",
+    "hour_sin"
+  ],
+  "source_split_dir": "/content/drive/MyDrive/fyp/60:20:20/data/splitting/timelag_based",
+  "source_meta": "/content/drive/MyDrive/fyp/60:20:20/data/splitting/timelag_based/meta.json"
+}

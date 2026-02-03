@@ -1,0 +1,16 @@
+feature
+nwp_temperature
+nwp_pressure
+lmd_totalirrad
+lmd_diffuseirrad
+lmd_pressure
+hour
+month
+day_of_week
+hour_sin
+hour_cos
+day_cos
+power_lag_1
+power_lag_2
+power_rollmean_4
+power_rollmean_8

@@ -1,0 +1,7 @@
+Config,Property,Model,MAE,RMSE,R2,Train time (sec),Predict time (sec),Model size (MB)
+Baseline (Untuned),,XGBoost,0.766,1.439,0.942,0.543,0.022,0.409
+FE (Tuned),Timelag,XGBoost,0.375,0.737,0.985,3.823,0.025,0.196
+FE + FS (Tuned),Timelag +MIC,XGBoost,0.318,0.675,0.987,0.47,0.023,0.365
+Baseline (Untuned),,GRU,0.794,1.467,0.939,382.503,1.639,0.751
+FE (Tuned),Timelag,GRU,0.536,1.09,0.966,124.919,0.665,0.813
+FE + FS (Tuned),Timelag + SBS,GRU,0.516,1.076,0.967,558.304,1.713,0.76
