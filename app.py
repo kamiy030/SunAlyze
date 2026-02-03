@@ -27,7 +27,7 @@ FEAT_IMPACT_PATH = ROOT / "feature_impact.csv"
 HIST_PATH = ROOT / "station01_timefixed.csv"
 TEST_PATH = ROOT / "test.csv"
 
-GRU_PATH = ROOT / "gru_savedmodel"
+GRU_PATH = ROOT / "gru_sbs_tuned.h5"
 SCALER_SBS = ROOT / "scaler_sbs_portable.joblib"
 SBS_JSON = ROOT / "sbs_selected_features.json"
 SBS_CSV = ROOT / "sbs_selected_features.csv"
